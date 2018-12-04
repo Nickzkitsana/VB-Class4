@@ -27,7 +27,7 @@
 
     Private Sub ButtonOrder_Click(sender As Object, e As EventArgs) Handles ButtonOrder.Click
         Dim message As String = ""
-        For Each items In LisBoxOrder.SelectedItems
+        For Each items In LisBoxOrder.Items
             message &= items & vbNewLine
         Next
 
