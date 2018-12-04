@@ -63,7 +63,7 @@
         ButtonReset.Enabled = False
     End Sub
 
-    Private Sub TextBoxId_TextChanged(sender As Object, e As EventArgs) Handles TextBoxId.TextChanged, ComboBoxMajor.SelectedIndexChanged, TextBoxId.TextChanged, TextBoxName.TextChanged
+    Private Sub TextBoxId_TextChanged(sender As Object, e As EventArgs) Handles TextBoxId.TextChanged, ComboBoxMajor.SelectedIndexChanged, TextBoxId.TextChanged, TextBoxName.TextChanged, ComboBoxFaculty.SelectedIndexChanged
         If TextBoxId.Text <> "" And TextBoxName.Text <> "" And ComboBoxFaculty.SelectedItem <> "" And ComboBoxMajor.SelectedItem <> "" Then
             ButtonOK.Enabled = True
         ElseIf TextBoxId.Text <> "" Or TextBoxName.Text <> "" Or ComboBoxFaculty.SelectedItem <> "" Or ComboBoxMajor.SelectedItem <> "" Then
