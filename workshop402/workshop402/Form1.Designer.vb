@@ -51,6 +51,7 @@ Partial Class Form1
         '
         'ComboBoxFaculty
         '
+        Me.ComboBoxFaculty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBoxFaculty.FormattingEnabled = True
         Me.ComboBoxFaculty.Location = New System.Drawing.Point(159, 164)
         Me.ComboBoxFaculty.Name = "ComboBoxFaculty"
@@ -59,6 +60,7 @@ Partial Class Form1
         '
         'ComboBoxMajor
         '
+        Me.ComboBoxMajor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBoxMajor.FormattingEnabled = True
         Me.ComboBoxMajor.Location = New System.Drawing.Point(160, 221)
         Me.ComboBoxMajor.Name = "ComboBoxMajor"
